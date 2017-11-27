@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Email Guard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_tulis_email">TulisEmail</string>
+    <string name="title_activity_baca_email">BacaEmail</string>
+    <string name="title_activity_reply_mail">ReplyMail</string>
+    <string name="title_activity_forward_mail">ForwardMail</string>
+    <string name="title_activity_tes">Tes</string>
+    <string name="title_activity_read_email">ReadEmail</string>
+    <string name="forgot_bold">Tidak bisa login? Lupa password?</string>
+    <string name="forgot_normal">Ketikkan Email anda dan kami akan mengirimkan instruksi reset password anda.</string>
+    <string name="type_email">Masukkan email</string>
+    <string name="send">Kirim</string>
+
+
+</resources>

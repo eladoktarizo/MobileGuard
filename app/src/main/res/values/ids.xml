@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logtxtEmail" type="id" />
+    <item name="logtxtPassword" type="id" />
+    <item name="logbtnLogin" type="id" />
+    <item name="loglblRegister" type="id" />
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>

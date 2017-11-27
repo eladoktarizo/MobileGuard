@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="arisryan.mobileeg.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/eg_logo" />
+
+        <!--email-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/logtxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--password-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/logtxtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txt_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Forgot Password?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/logbtnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorAccent"
+            android:padding="12dp"
+            android:text="login"
+            android:textColor="@android:color/white" />
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="208dp"-->
+        <!--android:layout_height="128dp"-->
+        <!--android:src="@drawable/mailguard"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/bglogo"-->
+        <!--android:layout_marginTop="20dp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Login User"-->
+        <!--android:textSize="26dp"-->
+        <!--android:layout_below="@id/bglogo"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/textView"/>-->
+
+    <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+        <!--android:id="@+id/logtxtEmail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/textView"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--android:hint="Email"-->
+        <!--app:met_baseColor="@android:color/holo_green_light"-->
+        <!--app:met_errorColor="#f22a37"-->
+        <!--app:met_floatingLabel="highlight"-->
+        <!--app:met_primaryColor="#fc1e94" />-->
+
+    <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Password"-->
+        <!--android:password="true"-->
+        <!--app:met_baseColor="@android:color/holo_green_light"-->
+        <!--app:met_primaryColor="#fc1e94"-->
+        <!--app:met_errorColor="#f22a37"-->
+        <!--app:met_floatingLabel="highlight"-->
+        <!--android:layout_below="@id/logtxtEmail"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:id="@+id/logtxtPassword"/>-->
+
+    <!--&lt;!&ndash;<com.rengwuxian.materialedittext.MaterialEditText&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:hint="Provider"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:met_baseColor="@android:color/holo_green_light"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:met_primaryColor="#fc1e94"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:met_errorColor="#f22a37"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:met_floatingLabel="highlight"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@id/logtxtPassword"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/provider"/>&ndash;&gt;-->
+
+    <!--<Button-->
+        <!--android:id="@+id/logbtnLogin"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/logtxtPassword"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@android:color/holo_green_dark"-->
+        <!--android:text="Login"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/logbtnLogin"-->
+        <!--android:text="Register"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/loglblRegister"/>-->
+
+    </LinearLayout>
+</ScrollView>
